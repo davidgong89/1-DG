@@ -37,18 +37,18 @@ app.controller('profileCtrl', function($scope, $state) {
 	};
 	
 	$scope.loadHomePage = function(){
-			window.open('http://www.applegacy88.com', '_system', 'location=yes');
+			window.open('http://www.applegacy88.com', '_blank', 'location=yes');
 	};
 	
 	$scope.loadFb = function(){
-			window.open('http://www.facebook.com', '_system', 'location=yes');
+			window.open('http://www.facebook.com', '_blank', 'location=yes');
 	};
 	
 	$scope.loadTwitter = function(){
-			window.open('http://www.twitter.com', '_system', 'location=yes');
+			window.open('http://www.twitter.com', '_blank', 'location=yes');
 	};
 	
 	$scope.loadGooglePlus = function(){
-			window.open('https://plus.google.com/', '_system', 'location=yes');
+			window.open('https://plus.google.com/', '_blank', 'location=yes');
 	};
 })
