@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.davidgong539364" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://cordova.apache.org/ns/1.0">
+  <name>David Gong</name>
+  <description>
+        David Gong's App Legacy
+    </description>
+  <author email="applegacy88@gmail.com" href="http://applegacy88.com/">
+      App Legacy 88
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  
+  <!--added preference-->
+  <preference name="orientation" value="portrait" />
+  <!--plugins-->
+  <gap:plugin name="org.apache.cordova.splashscreen" version="0.1.0" />
+  <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+  <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+  
+  <!--application icon-->
+  <icon src="icons/android/res/drawable-hdpi/appicon.png" />
+  
+  <!--application splash screen-->
+  <gap:splash src="icons/splash-port-hdpi.png" />
+
+	<icon src="icons/android/res/drawable-ldpi/appicon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="icons/android/res/drawable-mdpi/appicon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="icons/android/res/drawable-hdpi/appicon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="icons/android/res/drawable-xhdpi/appicon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="icons/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+  
+  
+</widget>
