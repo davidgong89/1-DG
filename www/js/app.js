@@ -37,7 +37,7 @@ app.controller('profileCtrl', function($scope, $state) {
 	};
 	
 	$scope.loadHomePage = function(){
-			window.open('http://www.applegacy88.com', '_blank', 'location=yes');
+			window.open('http://www.grandappnation.com', '_blank', 'location=yes');
 	};
 	
 	$scope.loadFb = function(){
