@@ -2,10 +2,10 @@
 <widget id="com.ionicframework.davidgong539364" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>David Gong</name>
   <description>
-        David Gong's App Legacy
+        David Gong's Personal Android App
     </description>
-  <author email="applegacy88@gmail.com" href="http://applegacy88.com/">
-      App Legacy 88
+  <author email="grandappnation@gmail.com" href="http://www.grandappnation.com/">
+      Grand App Nation
     </author>
   <content src="index.html"/>
   <access origin="*"/>
